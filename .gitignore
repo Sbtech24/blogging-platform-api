@@ -1,0 +1,15 @@
+config/.env
+.env
+node_modules 
+config
+
+
+# Docker
+*.pid
+.dockerignore
+docker-compose.override.yml
+
+# Build output
+dist/
+build/
+out/
