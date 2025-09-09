@@ -2,6 +2,7 @@ import express from "express"
 import dotenv from "dotenv"
 import blog from "./routes/blog"
 import { Appsource } from "./config/data-source"
+import user from "./routes/user"
 
 dotenv.config({path:"src/config/.env"})
 
@@ -17,7 +18,9 @@ Appsource.initialize()
 })
 
 
+
 app.use("/api/v1/blog",blog)
+app.use("/api/v1/user",user)
 
 app.listen(PORT,()=>{
     console.log(`Server is running on ${process.env.PORT}`)
