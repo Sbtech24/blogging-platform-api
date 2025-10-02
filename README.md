@@ -1,7 +1,7 @@
 # 📝 Blog Platform API
 
 A simple **CRUD API** for managing blog posts, built with **Express.js**, **TypeScript**, and **TypeORM**.  
-This is the foundation of a blog platform — authentication and user management will be added later.
+With Jwt authentcation 
 
 ---
 
